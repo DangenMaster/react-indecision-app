@@ -13,7 +13,7 @@ export default class AddOption extends React.Component {
     return (
       <div>
         <form className="add-option" onSubmit={this.onFormSubmit}>
-          <input className="add-option__input" type="text" name="option" />
+          <input className="add-option__input" type="text" name="option" autocomplete="off" />
           <button className="button">Add option</button>
         </form>
       </div>
